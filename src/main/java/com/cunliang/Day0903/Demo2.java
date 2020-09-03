@@ -13,7 +13,7 @@ import org.apache.flink.streaming.api.functions.source.RichParallelSourceFunctio
 import java.util.HashMap;
 import java.util.Random;
 
-public class Demo1 {
+public class Demo2 {
 
     private static class DataSource extends RichParallelSourceFunction<Tuple2<String, Integer>> {
         private volatile boolean isRunning = true;
